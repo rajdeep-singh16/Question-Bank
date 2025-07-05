@@ -14,8 +14,7 @@ import org.springframework.data.mongodb.core.SimpleReactiveMongoDatabaseFactory;
 @Configuration
 public class MongoConfiguration extends AbstractReactiveMongoConfiguration {
 //    String URI = "mongodb://localhost:27017";
-    String URI = "mongodb+srv://abhishekjoshi:abhishekjoshi@cluster0.iydxhsg.mongodb.net/?retryWrites=true&w=majority";
-
+    String URI = "";
     String DB_NAME = "questionBank";
 
     @Override
